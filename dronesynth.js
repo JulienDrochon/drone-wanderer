@@ -73,7 +73,7 @@ nx.onload = function() {
   });
 
   // set oscillator waveshape
-  $('button').on('focus', function() {
+  $('button').on('click', function() {
     $(this).blur();
     $('button').removeClass('active');
     $(this).addClass('active');
